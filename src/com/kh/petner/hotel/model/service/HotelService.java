@@ -114,15 +114,7 @@ public class HotelService {
 		return result;
 	}
 
-	public HotelKimsuninBoard selectOne(int bno) {
-		Connection con = getConnection();
-		
-		HotelKimsuninBoard b = hDao.selectOne(con,bno);
-		
-		close(con);
-		
-		return b;
-	}
+
 
 
 	

@@ -1,0 +1,47 @@
+package com.kh.petner.hotel.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.kh.petner.hotel.model.service.HotelService;
+import com.kh.petner.hotel.model.vo.HotelKimsuninBoard;
+
+/**
+ * Servlet implementation class HotelBoardSelectOne
+ */
+@WebServlet("/hotelboardselectone")
+public class HotelBoardSelectOne extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public HotelBoardSelectOne() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		int bno = Integer.parseInt(request.getParameter("bno"));
+		System.out.println("sikim HotelBoardSelectOne bno : " + bno);
+		
+		HotelKimsuninBoard b = new HotelService().selectOne(bno);
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

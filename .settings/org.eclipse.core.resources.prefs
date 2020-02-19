@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/views/common/header.jsp=UTF-8
+encoding//WebContent/views/hotel/hotel_home.jsp=UTF-8
+encoding//WebContent/views/hotel/hotel_reservation.jsp=UTF-8
+encoding//WebContent/views/member/mypage.jsp=UTF-8
+encoding//src/config/comment-query.properties=UTF-8
+encoding//src/config/hotelreserve-query.properties=UTF-8
+encoding//src/config/market-query.properties=UTF-8
+encoding//src/config/member-query.properties=UTF-8
+encoding//src/config/notice-query.properties=UTF-8

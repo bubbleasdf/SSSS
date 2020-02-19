@@ -39,7 +39,7 @@
     </style>
     
  			<div id="tab1" class="tab_content" style="width:1300px;"><br>
- 			<h1> tab1.jsp 임당</h1>
+
                 <div class="map_text" style="width:100%;">
                     <div class="progress-table-wrap" style="text-align: center; width:100%;" >
                         <form action="/PETNER/pDelete.me" method="post" id="delForm" style="width:100%;">

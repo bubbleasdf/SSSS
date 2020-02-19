@@ -55,7 +55,7 @@
     	 console.log($row);
     	 
     	 
-    	$('#tab_container').load("tab/tab5.jsp");
+    	$('#tab_container').load("tab/tab1.jsp");
 
     	// $('.tab_Chat').load("tab/chat.jsp");
 
@@ -114,16 +114,20 @@
     	<div class="container">
 	        <ul class="tabs">
 	            <li rel="tab1">회원 정보 관리</li>
+	            <!-- 
 	            <li rel="tab2">호텔 예약 조회</li>
 	            <li rel="tab3">1:1 문의 내역</li>
 	            <li rel="tab5">
 	            펫트너 월드
 	            <a class="btn btn-default" href="tab/chat.jsp" onclick="tab_Chat(); window.open(this.href,'','width=370, height=720'); return false;">Open</a>
-	            </li>
+	            </li> 
+	            -->
 	        </ul>
     	</div> <!-- container.tabs -->
 
 	    <div class="container">
+	    <br>
+	    <br>
 	        <div id="tab_container" style="width:100%;">
 		        	<!-- 요기에 불러옴 -->
 	

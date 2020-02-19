@@ -72,8 +72,8 @@
 										<a href="/PETNER/adStart.ad">Admin Page</a> 
 									<% } %>
 								| 	&nbsp;&nbsp; 
-									<a href='/PETNER/mpServlet.mp'  
-									onClick="window.open(this.href, '', 'width=1600, height=900'); return false;">MyPage</a>
+									<a href='/PETNER/mpServlet.mp' >MyPage</a>
+									<!--  onClick="window.open(this.href, '', 'width=1600, height=900'); return false;"  -->
 								| 	<a style="padding-left:10px;" href="/PETNER/Plogout.me"> LogOut</a>
 							</li>
 						</ul>
